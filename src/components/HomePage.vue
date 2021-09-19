@@ -4,7 +4,7 @@
       <img class="robot" src="../assets/robot-home.png" aria-hidden="true" />
     </div>
     <div class="get-started">
-      <a hreg="#">Get started</a> building your first robot!
+      <a href="#">Get started</a> building your first robot!
     </div>
   </div>
 </template>
@@ -20,18 +20,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.home {
+  text-align: center;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.robot {
+  height: 300px;
 }
 </style>
